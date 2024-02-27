@@ -5,8 +5,8 @@ function SignupForm() {
   return (
     <div className="form-container">
       <h1>Create an Account</h1>
-      <form noValidate>
-        <input required placeholder="Name" />
+      <form required>
+        <input placeholder="Name" />
         <input placeholder="Email" />
         <input placeholder="Password" />
         <a href="/">Sign Up</a>
