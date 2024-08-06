@@ -5,14 +5,16 @@ function SignupForm() {
   return (
     <div className="form-container">
       <h1>Create an Account</h1>
-      <form required>
+      <form >
         <input placeholder="Name" />
         <input placeholder="Email" />
         <input placeholder="Password" />
-        <a href="/">Sign Up</a>
+        <a href="/">Login</a>
+        
+
       </form>
     </div>
   )
 }
 
-export default SignupForm;
+export default SignupForm; 

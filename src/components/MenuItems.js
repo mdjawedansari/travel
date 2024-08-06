@@ -24,7 +24,7 @@ export const MenuItems = [
     icon : "fa-solid fa-address-book"
   },
   {
-    title : "Sign Up",
+    title : "Login",
     url : "/signup",
     cName : "nav-links-mobile",
   },
